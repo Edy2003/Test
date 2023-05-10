@@ -94,9 +94,6 @@ input{
     margin:19px 19px 44px 0
 }
 /*Second form quantity*/
-.quantity{
-    position: absolute;
-}
 .quantity-input{
     margin-bottom: 22%;
 }
@@ -105,4 +102,72 @@ input{
     margin: 0;
     font-size: 127px;
     font-weight: bold;
+}
+/*Forth form price*/
+.button-again{
+    height:50%;
+}
+/*Responsive media styles*/
+
+@media (max-width: 700px){
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 550px){
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    header {
+        width: 70%;
+        height: 44px;
+    }
+    .forms{
+        width: 80%;
+    }
+    .form{
+        height: 350px;
+    }
+    .contact-title{
+        font-size: 32px;
+    }
+    input{
+        width: 75%;
+    }
+    .button{
+        font-size: 12px;
+        width: 87px;
+        height: 32px;
+    }
+    .button-again {
+        margin-top: 180px;
+    }
+    .quantity-input{
+        margin-bottom: 24%
+    }
+
+}
+@media (max-width: 420px){
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    header{
+        font-size: 12px;
+    }
+    .inputs{
+        margin-left: 0;
+    }
+    input {
+        width: 70%;
+    }
+    .quantity-input {
+        margin-bottom: 34%;
+    }
+    #price{
+        font-size: 110px;
+        margin-bottom: 7%;
+    }
 }

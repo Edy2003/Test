@@ -4,7 +4,7 @@ showForm(form);
 function showForm(n){
     let x = document.getElementsByClassName("form");
     x[n].style.display = "block";
-    fixStepIndicator(n)
+    fixStepIndicator(n);
 }
 
 function nextButton(n,event) {
@@ -32,6 +32,9 @@ function nextButton(n,event) {
     form = form + n;
     showForm(form);
     event.preventDefault();
+}
+function again(){
+
 }
 
 function validateForm() {
